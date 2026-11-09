@@ -1,0 +1,18 @@
+{
+  "rank": "1.2",
+  "title": "Add a Kotlin Multiplatform example",
+  "context": "JVM is the first target.",
+  "limits": {
+    "max_commits": 5,
+    "max_file_changes": 4
+  },
+  "spec": {
+    "summary": "Add a small multiplatform example without changing the JVM API.",
+    "expected_outcome": "The example builds on JVM and documents the other targets.",
+    "acceptance_criteria": [
+      "JVM example builds",
+      "Target support is documented"
+    ]
+  },
+  "attempts": []
+}

@@ -1,0 +1,18 @@
+{
+  "rank": "2.3",
+  "title": "Pin the Kotlin toolchain policy",
+  "context": "Kotlin and JVM versions can drift.",
+  "limits": {
+    "max_commits": 5,
+    "max_file_changes": 4
+  },
+  "spec": {
+    "summary": "Document and enforce the Kotlin and JDK versions.",
+    "expected_outcome": "CI and docs use the same pinned versions.",
+    "acceptance_criteria": [
+      "Versions are pinned",
+      "Upgrade policy is documented"
+    ]
+  },
+  "attempts": []
+}
